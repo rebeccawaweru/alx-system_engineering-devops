@@ -1,2 +1,1 @@
-#!/bin/bash
-chmod u+x,g+x,o+x $(pwd) 
+#!/bin/bash\nchmod u+x,g+x,o+x $(find . -type d)
