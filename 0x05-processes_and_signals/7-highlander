@@ -1,0 +1,14 @@
+#!/usr/bin/env bash 
+# script to display string with sleep 2 in between each iteration
+
+text()
+{
+     echo "I am invincible!!!"
+}
+trap "text" SIGTERM
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
