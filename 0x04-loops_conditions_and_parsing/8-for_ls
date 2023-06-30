@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Display the contents of a directory
+for command in *; do
+    echo "$command" | cut -d '-' -f2
+done
