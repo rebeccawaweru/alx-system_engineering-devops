@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# fixing default port configuration
+sed -i "s/8080 default_server/80 default_server/" /etc/nginx/sites-enabled/default
+service nginx restart
+pkill -o nginx
