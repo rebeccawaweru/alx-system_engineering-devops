@@ -3,7 +3,7 @@
 import requests
 
 
-def recurse(subreddit, hot_list=[], after=''):
+def recurse(subreddit, hot_list=[]):
     """ Get hot posts
         Args:
             subreddit: name of subreddit
